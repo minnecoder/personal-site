@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Personal Portfolio",
+    "description": "This is the page that you are currently looking at. It is bult with Gatsby and uses GraphQL that comes with Gatsby to serve up the information for the blogs and the images that are used. ",
+    "img": "portfolio.jpg",
+    "tech": "Gatsby, GraphQL",
+    "github": "https://github.com/minnecoder/personal-site-gatsby",
+    "website": "https://www.seanparkin.netlify.com"
+  },
+  {
+    "id": "2",
+    "name": "React From Scratch",
+    "description": "React starter built with Babel and Webpack. Comes with ability to use Sass or Styled Components",
+    "img": "react-from-scratch.png",
+    "tech": "React, Babel, Webpack, Sass",
+    "github": "https://github.com/minnecoder/ReactFromScratch",
+    "website": "https://github.com/minnecoder/ReactFromScratch"
+  }
+]
