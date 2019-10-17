@@ -1,6 +1,7 @@
-import { css } from 'styled-components'
+import { css } from "styled-components"
 
 const sizes = {
+  large: 1500,
   desktop: 1024,
   tablet: 770,
   plusphone: 430,

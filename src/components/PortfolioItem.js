@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import media from './media'
+import React from "react"
+import PropTypes from "prop-types"
+import styled from "styled-components"
+import media from "./media"
 
 const PortfolioItem = ({ node, imgSrc }) => (
   <PortfolioContainer>
     <Image>
-      <img src={imgSrc} alt="Project" style={{ maxWidth: '100%' }} />
+      <img src={imgSrc} alt="Project" style={{ maxWidth: "100%" }} />
     </Image>
     <Info>
       <h3>{node.name}</h3>
@@ -39,6 +39,9 @@ const PortfolioContainer = styled.div`
   padding: 0.5rem;
   margin-bottom: 2rem;
   font-size: 1rem;
+  ${media.large`
+  flex-direction: column;
+  `}
   ${media.tablet`
   width: 80%;
   flex-direction: column;
@@ -46,12 +49,12 @@ const PortfolioContainer = styled.div`
 `
 
 const Image = styled.div`
-  flex-basis: 100%;
+  flex-basis: content;
   border-radius: 0.5rem;
 `
 
 const Info = styled.div`
-  flex-basis: 100%;
+  flex-basis: content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
