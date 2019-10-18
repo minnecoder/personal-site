@@ -31,6 +31,7 @@ PortfolioItem.propTypes = {
 }
 const PortfolioContainer = styled.div`
   display: flex;
+  flex-direction: column;
   width: 50%;
   border-style: solid;
   border-color: #d4d4d4;
@@ -39,9 +40,6 @@ const PortfolioContainer = styled.div`
   padding: 0.5rem;
   margin-bottom: 2rem;
   font-size: 1rem;
-  ${media.large`
-  flex-direction: column;
-  `}
   ${media.tablet`
   width: 80%;
   flex-direction: column;
@@ -50,6 +48,7 @@ const PortfolioContainer = styled.div`
 
 const Image = styled.div`
   flex-basis: content;
+  align-self: center;
   border-radius: 0.5rem;
 `
 

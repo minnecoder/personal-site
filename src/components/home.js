@@ -1,8 +1,6 @@
-import React from 'react'
-import Img from 'gatsby-image'
-import styled from 'styled-components'
-import { node } from 'prop-types'
-import mountains from '../images/white-building.jpg'
+import React from "react"
+import Img from "gatsby-image"
+import styled from "styled-components"
 
 const Home = ({ bgImage }) => (
   <HomeSect id="home">
@@ -26,7 +24,7 @@ const HomeSect = styled.div`
 `
 
 const HomeText = styled.div`
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
